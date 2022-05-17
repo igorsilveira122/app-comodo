@@ -1,0 +1,82 @@
+.container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+
+}
+.formTitle {
+    text-align: center;
+    width: 30%;
+}
+
+form {
+    position: relative;
+    margin-top: 25px;
+    padding: 25px;
+    border: 2px solid var(--ciano-one);
+    width: 63%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+
+.container_input {
+ display: flex;
+ margin: 7px 0;
+ margin-right: auto;
+}
+.container_input label {
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--purple-two);
+    color: white;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    width: 110px;
+    text-shadow: 0 0 5px black;
+}
+
+.container_input input {
+    height: 38px;
+    padding: 0px 8px;
+    border-radius: 0 5px 5px 0;
+    border: 2px solid var(--ciano-one);
+}
+
+#textoParede {
+    position: absolute;
+    top: -35px;
+    left: 15px;
+}
+
+.container_input span {
+    display: flex;
+    width: 38px;
+    height: 38px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--ciano-two);
+    border-radius: 7px;
+    color: white;
+}
+#formButton {
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+    padding: 15px;
+    border: 0;
+    background-color: var(--ciano-one);
+    color: white;
+    text-shadow: 0 0 5px black;
+    border-radius: 5px;
+    font-weight: 500;
+}
